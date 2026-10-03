@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="product-card">
+
+        <h1 id="productName">Nike Shoes</h1>
+
+        <img id="productImage" src="./images.jpe" alt="Nike Shoes">
+
+        <div class="photo-button">
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+        </div>
+
+        <h2>Price: <span id="productPrice">120</span>GEL</h2>
+
+        <label for="quantity">Quantity:</label>
+
+        <input type="number" id="quantity" min="0" value="1">
+
+        <button id="addBtn">Add to Cart</button>
+
+        <p id="result"></p>
+
+        <hr>
+
+        <h2>Choose the Product</h2>
+
+        <select name="" id="productSelected">
+        <option value="nike">Nike Shoes</option>
+        <option value="adidas">Adidas Shoes</option>
+        </select>
+
+        <button id="clearBtn">Clear the Card</button>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
